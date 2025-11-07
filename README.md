@@ -1,8 +1,6 @@
 BetCrafter
 -
-BetCrafter is a backend service for managing and analyzing football betting tickets.
-It allows the user to store,update and track their football betting tickets, then extract useful insights to improve betting decisions over time.
-The system provides core functionality for ticket management and an analyzer interface to generate actionable information from the data.
+BetCrafter is a backend system for managing and analyzing football betting tickets. It provides APIs for ticket storage, updates, and insights generation — helping user track performance and identify patterns to improve betting strategies over time.
 
 
 Features
