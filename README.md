@@ -52,3 +52,18 @@ Workflow
 * Update pending ticket      - modify ticket info: profit, cashout(true,false), status(won,lost), match result outcome if it's correct or wrong
 * Get ticket by status or id - retrieve tickets by status or ticket by id
 * Analyze tickets            - retrieve useful information about the tickets from date range: for example the 3 most profitable outcomes, overall statistic, etc.
+
+API Endpoints
+-
+| Method     | Endpoint                                                  | Description                                                                        |
+| -----------| ----------------------------------------------------------| -----------------------------------------------------------------------------------|
+| **POST**   | `/ticket/create`                                          | Handle create ticket                                                               |
+| **GET**    | `/ticket/getPending`                                      | Handle get pending tickets                                                         |
+| **PATCH**  | `/ticket/updatePending`                                   | Handle update pending ticket                                                       |
+| **PATCH**  | `/ticket/updateDate`                                      | Handle update ticket date                                                          |
+| **GET**    | `/ticket/getById/{ticketID}`                              | Handle get ticket by id                                                            |
+| **GET**    | `/ticket/getByStatus/{status}`                            | Handle create user details                                                         |
+| **GET**    | `/ticket/getStats`                                        | Handle get ticket stats in given date range                                        |
+| **GET**    | `/ticket/getPickedOutcomeStats`                           | Handle get ticket picked outcome stats in given date range                         |
+| **GET**    | `/ticket/getPickedOutcomeOddRangeStats`                   | Handle get ticket picked outcome odd range stats  in given date range              |
+| **GET**    | `/ticket/getMostProfitablePick`                           | Handle get most profitable pick outcomes in given date range                       |
