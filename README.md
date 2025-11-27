@@ -62,7 +62,7 @@ API Endpoints
 | **PATCH**  | `/ticket/updatePending`                                   | Handle update pending ticket                                                       |
 | **PATCH**  | `/ticket/updateDate`                                      | Handle update ticket date                                                          |
 | **GET**    | `/ticket/getById/{ticketID}`                              | Handle get ticket by id                                                            |
-| **GET**    | `/ticket/getByStatus/{status}`                            | Handle create user details                                                         |
+| **GET**    | `/ticket/getByStatus/{status}`                            | Handle get ticket by status                                                        |
 | **GET**    | `/ticket/getStats`                                        | Handle get ticket stats in given date range                                        |
 | **GET**    | `/ticket/getPickedOutcomeStats`                           | Handle get ticket picked outcome stats in given date range                         |
 | **GET**    | `/ticket/getPickedOutcomeOddRangeStats`                   | Handle get ticket picked outcome odd range stats  in given date range              |
