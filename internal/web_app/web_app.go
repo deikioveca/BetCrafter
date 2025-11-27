@@ -31,7 +31,7 @@ func NewWebApp() *WebApp {
 	}
 }
 
-func (a *WebApp) Run(addr string) {
+func (a *WebApp) Run() {
 	mux := http.NewServeMux()
 
 	mux.HandleFunc("POST /ticket/create", 						a.TicketHandler.CreateTicket)
@@ -47,7 +47,7 @@ func (a *WebApp) Run(addr string) {
 	mux.HandleFunc("GET /ticket/getPickedOutcomeOddRangeStats", a.TicketHandler.GetPickedOutcomeOddRangeStats)	
 	mux.HandleFunc("GET /ticket/getMostProfitablePick", 		a.TicketHandler.GetMostProfitablePickTypes)
 
-	if err := http.ListenAndServe(addr, mux); err != nil {
+	if err := http.ListenAndServe(":8080", mux); err != nil {
 		log.Fatalf("failed to start server: %v", err)
 	}
 }

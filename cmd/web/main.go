@@ -6,5 +6,5 @@ import (
 
 func main() {
 	webApp := web_app.NewWebApp()
-	webApp.Run(":8080")
+	webApp.Run()
 }
