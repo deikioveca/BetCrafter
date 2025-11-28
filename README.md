@@ -39,7 +39,7 @@ Running guide
   * Clone the repo
   * Run go mod download
   * Start PostgreSQL and ensure that database betcrafter exist
-  * Change .env file according to your setup
+  * Create and config .env file according to your setup
   * go run cmd/cli/main.go -> for the cli && go run cmd/web/main.go -> for the web
 * Docker
   * Docker compose up
