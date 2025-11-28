@@ -57,13 +57,13 @@ API Endpoints
 -
 | Method     | Endpoint                                                  | Description                                                                        |
 | -----------| ----------------------------------------------------------| -----------------------------------------------------------------------------------|
-| **POST**   | `/ticket/create`                                          | Handle create ticket                                                               |
-| **GET**    | `/ticket/getPending`                                      | Handle get pending tickets                                                         |
-| **PATCH**  | `/ticket/updatePending`                                   | Handle update pending ticket                                                       |
-| **PATCH**  | `/ticket/updateDate`                                      | Handle update ticket date                                                          |
-| **GET**    | `/ticket/getById/{ticketID}`                              | Handle get ticket by id                                                            |
-| **GET**    | `/ticket/getByStatus/{status}`                            | Handle create user details                                                         |
-| **GET**    | `/ticket/getStats`                                        | Handle get ticket stats in given date range                                        |
-| **GET**    | `/ticket/getPickedOutcomeStats`                           | Handle get ticket picked outcome stats in given date range                         |
-| **GET**    | `/ticket/getPickedOutcomeOddRangeStats`                   | Handle get ticket picked outcome odd range stats  in given date range              |
-| **GET**    | `/ticket/getMostProfitablePick`                           | Handle get most profitable pick outcomes in given date range                       |
+| **POST**   | `/ticket/create`                                          | Create ticket                                                                      |
+| **GET**    | `/ticket/getPending`                                      | Get pending tickets                                                                |
+| **PATCH**  | `/ticket/updatePending`                                   | Update pending ticket                                                              |
+| **PATCH**  | `/ticket/updateDate`                                      | Update ticket date                                                                 |
+| **GET**    | `/ticket/getById/{ticketID}`                              | Get ticket by id                                                                   |
+| **GET**    | `/ticket/getByStatus/{status}`                            | Get ticket by status                                                               |
+| **GET**    | `/ticket/getStats`                                        | Get ticket stats in given date range                                               |
+| **GET**    | `/ticket/getPickedOutcomeStats`                           | Get ticket picked outcome stats in given date range                                |
+| **GET**    | `/ticket/getPickedOutcomeOddRangeStats`                   | Get ticket picked outcome odd range stats  in given date range                     |
+| **GET**    | `/ticket/getMostProfitablePick`                           | Get most profitable pick outcomes in given date range                              |
